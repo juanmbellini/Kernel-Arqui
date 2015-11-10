@@ -1,0 +1,8 @@
+#ifndef KEYBOARD_H
+#define KEYBOARD_H
+
+void keyboardISR(void);
+uint8_t dequeueKey(void);
+uint8_t peekKey(void);
+
+#endif
