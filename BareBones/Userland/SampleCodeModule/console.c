@@ -22,11 +22,13 @@ static int inputInterpreter(char * command) {
 	}else if(strcmp(command,"beep")){
 		beep();
 		result = 0;
-	}else if(strcmp(command,"stopwatch")){
-		/*stopWatch();  No funciona en las PCs del ITBA */
+	}
+	/*else if(strcmp(command,"stopwatch")){
+		stopWatch(); // No funciona en las PCs del ITBA 
         printf("No disponible\n");
 		result = 0;
-	}else if(strcmp(command,"musicplayer")){
+	}*/
+	else if(strcmp(command,"musicplayer")){
 		playMusic();
 		result = 0;
 	} else if(strcmp(command,"echo")){
