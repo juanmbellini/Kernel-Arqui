@@ -108,7 +108,7 @@ void showHelp(void){
 	printf("piano        : Inicia un \"piano\" basico\n");
 	printf("beep         : Hace sonar el speaker brevemente\n");
 	printf("echo         : Escribe un mensaje en pantalla con eco\n");
-	printf("stopwatch    : Inicia un cronometro basico\n");
+    printf("stopwatch    : Inicia un cronometro basico. No disponible en las PCs del ITBA\n");
 	printf("musicplayer  : Reproductor de musica\n");
 	printf("exit         : Apaga la PC\n"); 
 	printf("\n");

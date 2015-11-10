@@ -23,7 +23,8 @@ static int inputInterpreter(char * command) {
 		beep();
 		result = 0;
 	}else if(strcmp(command,"stopwatch")){
-		stopWatch();
+		/*stopWatch();  No funciona en las PCs del ITBA */
+        printf("No disponible");
 		result = 0;
 	}else if(strcmp(command,"musicplayer")){
 		playMusic();
